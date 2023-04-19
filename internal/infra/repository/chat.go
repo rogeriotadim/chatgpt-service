@@ -6,8 +6,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/rogeriotadim/talk-to-chatgpt/chatservice/internal/domain/entity"
-	"github.com/rogeriotadim/talk-to-chatgpt/chatservice/internal/infra/db"
+	"github.com/rogeriotadim/chatgpt-service/internal/domain/entity"
+	"github.com/rogeriotadim/chatgpt-service/internal/infra/db"
 )
 
 type ChatRepositoryMySQL struct {

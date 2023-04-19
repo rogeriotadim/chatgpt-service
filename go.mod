@@ -1,4 +1,4 @@
-module github.com/rogeriotadim/talk-to-chatgpt/chatservice
+module github.com/rogeriotadim/chatgpt-service
 
 go 1.20
 

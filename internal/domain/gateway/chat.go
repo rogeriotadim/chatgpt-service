@@ -3,7 +3,7 @@ package gateway
 import (
 	"context"
 
-	"github.com/rogeriotadim/talk-to-chatgpt/chatservice/internal/domain/entity"
+	"github.com/rogeriotadim/chatgpt-service/internal/domain/entity"
 )
 
 type ChatGateway interface {

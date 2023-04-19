@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/rogeriotadim/talk-to-chatgpt/chatservice/internal/domain/entity"
-	"github.com/rogeriotadim/talk-to-chatgpt/chatservice/internal/domain/gateway"
+	"github.com/rogeriotadim/chatgpt-service/internal/domain/entity"
+	"github.com/rogeriotadim/chatgpt-service/internal/domain/gateway"
 	openai "github.com/sashabaranov/go-openai"
 )
 

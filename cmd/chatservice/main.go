@@ -5,11 +5,11 @@ import (
 	"fmt"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/rogeriotadim/talk-to-chatgpt/chatservice/configs"
-	"github.com/rogeriotadim/talk-to-chatgpt/chatservice/internal/infra/repository"
-	"github.com/rogeriotadim/talk-to-chatgpt/chatservice/internal/infra/web"
-	"github.com/rogeriotadim/talk-to-chatgpt/chatservice/internal/infra/web/webserver"
-	"github.com/rogeriotadim/talk-to-chatgpt/chatservice/internal/usecase/chatcompletion"
+	"github.com/rogeriotadim/chatgpt-service/configs"
+	"github.com/rogeriotadim/chatgpt-service/internal/infra/repository"
+	"github.com/rogeriotadim/chatgpt-service/internal/infra/web"
+	"github.com/rogeriotadim/chatgpt-service/internal/infra/web/webserver"
+	"github.com/rogeriotadim/chatgpt-service/internal/usecase/chatcompletion"
 	"github.com/sashabaranov/go-openai"
 )
 
